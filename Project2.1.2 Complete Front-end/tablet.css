@@ -1,0 +1,33 @@
+#container{
+    height: 80px;
+}
+
+.item a{
+    font-size: 1.3rem;
+}
+.groupingservices{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    align-items: center;
+}
+.services2{
+    margin: 40px 0px;
+}
+.fullheading{
+    height: 155px;
+}
+.end{
+     padding: 120px 0px;
+}
+.quotesheading{
+    padding: 0px ;
+    width: 62%;
+    margin: 150px 0px;
+}
+#gallery{
+    height: 1200px;
+}
+.aboutme{
+    padding: 10px 25px;
+}

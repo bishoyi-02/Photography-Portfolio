@@ -1,0 +1,110 @@
+ #container{
+     height: 380px;
+     transition: all 0.3s ease-out;
+     background-color: #2d2a2a;
+    
+} 
+
+.item a{
+    font-size: 1.3rem;
+}
+.groupingservices{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    align-items: center;
+}
+.services2{
+    margin: 40px 0px;
+}
+.fullheading{
+    height: 155px;
+}
+.end{
+     padding: 120px 0px;
+}
+.quotesheading{
+    padding: 0px ;
+    width: 62%;
+    margin: 150px 0px;
+}
+#gallery{
+    height: 870px;
+}
+
+.aboutme {
+    padding: 40px 60px;
+     margin: 60px 0px;
+     margin-left: 18px;
+}
+
+#aboutus{
+    display: block;
+}
+.mypic{
+    text-align: center;
+    }
+
+#ending{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#linfo{
+    margin: 0px;
+    width: auto;
+    padding: 0px;
+}
+.end{
+    text-align: center;
+    padding: 33px;
+}
+#lastsection{
+    height: 1050px;
+}
+#pforow{
+    top: 25px;
+}
+#psrow{
+    padding: 16px 0px;
+}
+
+#pfrow{
+    padding: 25px 0px;
+}
+#fourthrow{
+    top: 25px;
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transition: all 0.3s ease-out;
+  
+}
+
+#navbar{
+    height: 355px;
+}
+.burger{
+    top: 21px;
+    
+    position: absolute;
+    
+    left: 10px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+
+}
+.vclass{
+    opacity: 0;
+}
+.hnav{
+    height: 80px!important ;
+}

@@ -1,0 +1,673 @@
+/* CSS  RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+
+}
+#full{
+    background-color:black;
+}
+
+
+
+/*Navigation Bar*/
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+   
+  
+   
+    
+    
+}
+
+/* #container::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 1;
+} */
+
+#logo img{
+    height: 61px;
+    display: inline-block;
+    
+}
+
+#logo{
+    display: inline-block;
+    position: relative;
+    right:240px;
+  
+
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    width: 100%;
+    background-color: black;
+    height: 52px;
+    /* border: 3px solid green; */
+   
+    
+    
+    
+}
+
+.item{
+    display: inline-block;
+    padding: 11px 19px;
+    
+}
+
+ .item a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:white;
+    font-family: system-ui;
+    
+
+}
+.item a:hover{
+    color: #9a6b31;
+}
+
+#socio{
+    position: relative;
+    display: flex;
+    left: 120px;
+    justify-content: center;
+    z-index: -5;
+   
+  
+
+}
+#socio a img{
+    height: 34px;
+    display: inline-block;
+    margin: 14px 11px;
+    padding: 0px 2px;
+    
+    
+
+}
+/*
+#socio::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -4;
+    background-image: url(/images/instagram.png);
+    opacity: 1;
+}
+*/
+
+
+
+
+
+/* HOME SECTION*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height:900px; */
+   
+    
+    
+    /* background-attachment: fixed; */
+    
+    
+}
+.background{
+    background: rgba(5, 5, 5, 0.5)url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
+   
+      background-size: cover;
+      background-attachment: fixed;
+    
+    background-position: center;
+    background-blend-mode: darken;
+    height: 900px; 
+    /* border: 3px solid red ; */
+    
+
+}
+#firstsection{
+    /* border: 3px solid yellow; */
+    text-align: center;
+}
+
+   
+    
+   
+   
+
+    
+/* #home::before{
+    position: absolute;
+    content:"";
+    background: url('images/bg.jpg') no-repeat center center/cover;   
+    opacity: 0.8;
+    height: 100%; 
+    width:100%;
+    
+    z-index: -1; 
+    
+
+} */
+
+#home h1{
+    text-align: center;
+    
+}
+.heading{
+    font-size: 2.4rem;
+    padding:34px 34px;
+    color: white;
+
+    font-weight: lighter;
+    
+
+}
+.btn{
+    padding:11px 16px;
+    font-family: 'Work Sans', sans-serif;
+     border-radius: 23px ;
+     
+
+}
+#firstheading{
+    text-align: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(210, 211, 210);
+}
+
+
+/*QUOTES SECTION*/
+#quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+   
+}
+
+#quotes h1{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 10;
+    font-family: system-ui;
+}
+
+.quotesheading{
+    margin-top:150px;
+    font-family: 'Poppins', sans-serif;
+    padding:0px 200px;
+    margin-bottom: 150px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    width: 100%;
+    
+
+}
+
+
+/*PORTRAITS SECTION*/
+
+.heading2{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 51px;
+    font-weight: lighter;
+    color: white;
+
+}
+
+#portraits{
+    display: flex;
+    /* max-width: 50%; */
+    
+    
+}
+
+.portraitimg img{
+    
+    
+    margin-bottom: 200px;
+    position: static;
+    
+    transition: 0.5s all ease-in-out;
+    
+}
+.portraitimg:hover img{
+    transform: scale(1.5);
+}
+.portraitimg{
+    height: 483px;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+.para{
+    font-size:1.2rem;
+    margin-top: 74px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 23px 94px;
+    margin-left: -58px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+.left{
+    margin-left: 100px;
+}
+.button2{
+    margin-left:134px;
+    text-align: center;
+    justify-content: center;
+    padding:11px 16px;
+    font-family: 'Work Sans', sans-serif;
+     border-radius: 23px ;
+     
+    
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: rgb(210, 211, 210);
+}
+
+
+#portraits2{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+/* SUPERMODEL PHOTOSHOOT */
+.portraitimg2 img{
+    margin-right: 355px;
+    height:483px;
+    margin-bottom: 200px;
+    width: 368px;
+
+}
+.right{
+    margin-left: -50px;
+}
+.button3{
+    margin-left:200px;
+    text-align: center;
+    justify-content: center;
+    padding:11px 16px;
+    font-family: 'Work Sans', sans-serif;
+     border-radius: 23px ;
+     
+    
+}
+.button3:hover{
+    cursor: pointer;
+    background-color: rgb(210, 211, 210);
+}
+.heading3{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 25px;
+    font-weight: lighter;
+    color: white;
+
+}
+
+/*OUR SERVICES*/
+#services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.groupingservices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 23px 92px;
+    padding: 0px 20px;
+    color: w;
+    
+}
+.services2{
+    
+    border-radius: 23px;
+    width: 249px;
+    margin: -1px 9px;
+    padding: 36px 36px;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: -1;
+    color: white;
+   
+    
+    
+    
+}
+
+.serviceheading{
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.serviceheading2{
+    font-size: 2.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+
+.heading4{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+}
+.services2:hover{
+    box-shadow:10px 10px 5px grey;
+    transition: box-shadow 0.5s ease-in-out;
+}
+.coheading{
+    color: white;
+}
+/* NOT SUITABLE FOR BACKGROUNDS
+#portraitp{
+    background-image: url("images/portraitp.jpg")  ;
+    background-size: 100%;
+    color: rgb(20, 17, 17);
+}
+#westernp{
+    background-image: url("images/westernp.jpg")  ;
+    background-size: 100%;
+}
+#lifestylep{
+    background-image: url("images/lifestylep.jpg")  ;
+    background-size: 100%;
+}
+#bwhitep{
+    background-image: url("images/bwp.jpg")  ;
+    background-size: 100%;
+}
+#vintagep{
+    background-image: url("images/vintagep.jpg")  ;
+    background-size: 100%;
+}
+#fitnessp{
+    background-image: url("images/fitnessp.jpg")  ;
+    background-size: 100%;
+}
+*/
+
+#portraitp{
+    position: relative;
+    color:white;
+    cursor: pointer;
+}
+#portraitp::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.9; */
+  background-image: url("images/portraitp.jpg");
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  border-radius: 23px;
+}
+
+
+
+
+
+#westernp{
+    position: relative;
+    color:white;
+    cursor: pointer;
+}
+#westernp::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.7; */
+  background-image: url("images/westernp.jpg");
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  border-radius: 23px;
+}
+
+
+
+#lifestylep{
+    position: relative;
+    color:white;
+    cursor: pointer;
+}
+#lifestylep::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.7; */
+  background-image: url("images/lifestylep.jpg");
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  border-radius: 23px;
+}
+
+
+
+#vintagep{
+    position: relative;
+    color:white;
+    cursor: pointer;
+}
+#vintagep::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.7; */
+  background-image: url("images/vintagep.jpg");
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  border-radius: 23px;
+}
+
+
+#fitnessp{
+    position: relative;
+    color:white;
+    cursor: pointer;
+   
+}
+
+#fitnessp::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.7; */
+  background-image: url("images/fitnessp.jpg");
+  background-repeat: no-repeat;
+ 
+  
+  background-size: cover;
+  border-radius: 23px;
+}
+
+
+
+
+#bwhitep{
+    position: relative;
+    color:white;
+    cursor: pointer;
+}
+#bwhitep::before{
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.7; */
+  background-image: url("images/bwp.jpg");
+  background-repeat: no-repeat;
+   background-size: cover;
+  border-radius: 23px
+}
+/*
+body{
+    position: absolute;
+    background-color: black;
+    z-index: -3;
+}
+*/
+  
+#coheading{
+    position: relative;
+}
+.boxheading{
+    margin-bottom: 34px;
+    margin-top: -20px;
+}
+
+
+/*FOOTER-ENDING*/
+#ending{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color:#9a6b31;
+    background-color: black;
+    
+}
+
+
+#lastsection{
+    padding-top: 150px;
+    z-index: -2;
+    position: relative;
+   
+    
+}
+#firstrow{
+    width: 340px;
+    position:relative;
+    
+    
+    
+}
+.end{
+    padding: 120px 52px;
+    position: relative;
+}
+#pfrow{
+    padding: 38px 0px;
+    position: relative;
+    top: 5px;
+}
+
+#psrow{
+    padding: 36px 0px;
+    position: relative;
+    top: 1px;
+    list-style: none;
+}
+.explore{
+    padding: 7px 0px;
+}
+#linfo{
+    width: 161px;
+    position: relative;
+    top: 17px;
+    padding: 19px 0px;
+    list-style: none;
+}
+.info{
+    padding: 7px 0px;
+}
+#pforow{
+    padding:0px 0px;
+    position: relative;
+    top: 42px;
+}
+.explore a{
+    text-decoration: none;
+    color:#9a6b31;
+    
+}
+.info a{
+    text-decoration: none;
+    color: #9a6b31;
+    
+}
+#name{
+    color: #9a6b31;
+    text-decoration: none;
+   
+
+}
+#cr{
+    font-size: 1 rem;
+    font-family:'Ubuntu', sans-serif;
+    background-color: black;
+    color: #9a6b31;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+    
+
